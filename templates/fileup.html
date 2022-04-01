@@ -7,10 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    hello world <!DOCTYPE html>
-    <hr>
-    hahahahahahaha<br>
-    <a href="/main">메인</a><br>
-    <a href="/upload">파일업로드</a>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file">
+        <input type="submit" value="파일전송">
+    </form>
 </body>
 </html>
