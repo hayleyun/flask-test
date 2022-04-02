@@ -1,0 +1,8 @@
+설치경로
+
+VirtualBox - C:\Program Files\Oracle
+mysql - C:\dev
+mysql server - C:\Program Files 
+java - C:\Users\Administrator\Documents\java
+anaconda -  C:\Users\Administrator\anaconda3
+anaconda workspace - C:\pythondata

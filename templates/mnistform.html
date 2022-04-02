@@ -1,0 +1,16 @@
+{% extends 'default.html' %}
+{% block title %}손글씨 인식 모델{% endblock %}
+{% block content %}
+<div class="container">
+    <form action="/mnist" method="post" enctype="multipart/form-data">
+        <div class="mb-3">
+            <label for="formFileLg" class="form-label">숫자 이미지 선택</label>
+            <input class="form-control form-control-lg" name="filename" id="formFileLg" type="file" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">
+                인식하고자하는 숫자 이미지를 넣어주세요.
+            </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+</div>
+{% endblock %}
